@@ -13,7 +13,7 @@ import android.widget.Button;
 public class AActivity extends Fragment {
 
     private View view;
-    private Button AtB, AtC;
+    private Button AtB, AtC, AtD;
 
     @Nullable
     @Override
@@ -22,6 +22,7 @@ public class AActivity extends Fragment {
         Log.d("**********A", "onCreateView()");
         AtB();
         AtC();
+        AtD();
         return view;
     }
 
@@ -44,6 +45,17 @@ public class AActivity extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), MainActivity.class);
                 intent.putExtra("fragment", 2);
+                startActivity(intent);
+            }
+        });
+    }
+
+    public void AtD() {
+        AtD = (Button) view.findViewById(R.id.AtD);
+        AtD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), DActivity.class);
                 startActivity(intent);
             }
         });
