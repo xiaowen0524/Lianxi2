@@ -9,29 +9,30 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="text.bwei.com.lianxi.CActivity">
+    tools:context="text.bwei.com.lianxi.DActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C"
+        android:text="D"
         android:textSize="30dp" />
 
     <Button
-        android:id="@+id/CtA"
+        android:id="@+id/DtA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="C跳A" />
+        android:text="D跳A" />
 
     <Button
-        android:id="@+id/CtB"
+        android:id="@+id/DtB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="C跳B" />
+        android:text="D跳B" />
 
     <Button
-        android:id="@+id/CtD"
+        android:id="@+id/DtC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="C跳D" />
+        android:text="D跳C" />
+
 </LinearLayout>

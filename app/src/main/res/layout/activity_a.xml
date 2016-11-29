@@ -29,4 +29,10 @@
         android:layout_height="wrap_content"
         android:text="A跳C" />
 
+    <Button
+        android:id="@+id/AtD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A跳D" />
+
 </LinearLayout>
